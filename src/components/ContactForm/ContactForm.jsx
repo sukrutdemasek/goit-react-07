@@ -2,7 +2,7 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { nanoid } from "nanoid";
 import { useDispatch } from "react-redux";
-import { addContactAsync } from "../../redux/contactOps";
+import { addContactAsync } from "../../redux/contactsOps";
 import "./ContactForm.css";
 
 const validationParams = Yup.object({

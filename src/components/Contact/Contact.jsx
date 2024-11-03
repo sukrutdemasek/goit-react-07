@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { deleteContactAsync } from "../../redux/contactOps";
+import { deleteContactAsync } from "../../redux/contactsOps";
 import "./Contact.css";
 
 export default function Contact({ name, number, id }) {

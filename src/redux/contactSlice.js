@@ -7,7 +7,7 @@ import {
   fetchContacts,
   addContactAsync,
   deleteContactAsync,
-} from "./contactOps";
+} from "./contactsOps";
 
 export const contactsSlice = createSlice({
   name: "contacts",

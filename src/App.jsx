@@ -9,7 +9,7 @@ import {
   selectLoading,
 } from "./redux/contactSlice";
 import { useEffect } from "react";
-import { fetchContacts } from "./redux/contactOps";
+import { fetchContacts } from "./redux/contactsOps";
 
 function App() {
   const dispatch = useDispatch();
